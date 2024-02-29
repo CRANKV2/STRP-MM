@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.strp.magisk.modules.HomeActivity">
+
+
+    <WebView
+        android:id="@+id/home_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/home_navigation" />
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:visibility="invisible"
+        android:layout_centerInParent="true"
+        android:id="@+id/loading"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        app:lottie_rawRes="@raw/loading"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/home_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/navigation_bar"
+        app:itemIconTint="#988900"
+        app:itemTextColor="#954900"
+        app:itemIconSize="35dp"
+        app:itemBackground="@color/black"
+        android:backgroundTint="@color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-6dp"/>
+
+    <!-- TODO NEXT -->
+    <!-- TODO WebView Box über Navbar legen damit es sich nicht überschneidet -->
+
+</RelativeLayout>
+
